@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
-    --off-white: #F3F4F6;
+    --primary-color: #C026D3;
+    --off-white: #FAE8FF;
     --dark-gray: #6B7280;
+    --blue: #6C63FF;
 }
 
 body {
@@ -122,9 +123,12 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: var(--blue);
 }
 
+.name-inverted{
+    color: var(--primary-color);
+}
 /** sections **/
 
 .section {
@@ -171,4 +175,76 @@ hr {
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+
+.wavy {
+    animation-name: wave-animation;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+    transform-origin: 100% 100%;
+    display: inline-block;
+}
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+
+.gray-font{
+    color: var(--dark-gray);   
+}
+
+.image-center{
+        max-width: 50%;
+        width: 350px;
+        display: block;
+        margin: auto;
+    
+}
+
+.rahul-image{
+    max-width: 50%;
+        width: 300px;
+        height: 200px;
+        display: block;
+        margin: auto;
+       
+
+}
+
+.img-inline{
+    
+        display: inline;
+        display: flex;
+    
 }
