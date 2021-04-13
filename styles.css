@@ -248,3 +248,18 @@ hr {
         display: flex;
     
 }
+
+.card-btn {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.card-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    /* margin: 1rem 1rem 1rem 0rem; */
+}
