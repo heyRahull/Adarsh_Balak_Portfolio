@@ -101,6 +101,10 @@ hr {
     font-weight: bold;
 }
 
+.nav-color{
+    background-color: var(--primary-color);
+}
+
 /** header **/
 
 .hero {
