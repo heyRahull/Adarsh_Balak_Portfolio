@@ -1,269 +1,596 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Projects | Rahul Agarwal</title>
   </head>
   <body>
-
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-color" >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Rahul Agarwal</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link " aria-current="page" href="index.html">Home</a>
-              <a class="nav-link active" href="projects.html">Projects</a>
-              <a class="nav-link" href="blogs.html">Blogs</a>
-              
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-color">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Rahul Agarwal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" href="projects.html">Projects</a>
+            <a class="nav-link" href="blogs.html">Blogs</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-<!-- My Projects -->
-<section class="section ">
-    <div class="container container-center"><br><br><br>
-        <h1><strong class="name-inverted">MY PROJECTS</strong></h1><hr>
-        <img class="image-center" src="images/project-image.svg" /><br>
-        <p><strong>You can see live implementation as well as source of some of the projects that I have made as a part of my learning and experimenting with different tech stack.</strong></p>
-    </div>
-</section>
-<hr>
-<ul class="list-non-bullet">
+    <!-- My Projects -->
+    <section class="section">
+      <div class="container container-center">
+        <br /><br /><br />
+        <h1><strong class="name-inverted">MY PROJECTS</strong></h1>
+        <hr />
+        <img class="image-center" src="images/project-image.svg" /><br />
+        <p>
+          <strong
+            >You can see live implementation as well as source of some of the
+            projects that I have made as a part of my learning and experimenting
+            with different tech stack.</strong
+          >
+        </p>
+      </div>
+    </section>
+    <hr />
+    <ul class="list-non-bullet">
+      <li class="ow">
+        <article class="showcase-list container container-center">
+          <h1>🖥️ Web developer Bootcamp Assignments</h1>
+          <small>September, 2022</small>
+          <img
+            class="project-image"
+            src="./project-images/movies__app.PNG"
+            alt="angelas_bootcamp"
+          />
+          <p>
+            While attendinding the Web developer bootcamp by Angela Yu, I have
+            completed several assignments as capstone projects.
+          </p>
 
-  <li >
-    <article class="showcase-list container container-center ">
-        <h1>🍷 Cocktail Db App</h1>
-    <small>May, 2021</small>
-    <img class="project-image"  src="./project-images/cocktaildb.PNG" alt="movies__app">
-    <p>This is a Cocktail Db app built in react js and it displays cocktails images and gives information about each image. The cocktails are displayed using thecocktaildb Api. Learnt context api, purejs, react and css concepts while building this.</p>
-
-    <a class="link link-primary" href="https://cocktail-db-app.netlify.app/">Live Project</a>
-    <a class="link link-secondary" href="https://github.com/heyRahull/Cocktauil-Db">View Source</a>
-
-    </article>
-    
-</li>
-  
-  <li class="ow">
-    <article class="showcase-list container container-center ">
-        <h1>🎥 Movies App</h1>
-    <small>May, 2021</small>
-    <img class="project-image"  src="./project-images/movies__app.PNG" alt="movies__app">
-    <p>This is a Movies app built in react js and it displays movies posters and overview of the movies. The movies are displayed using Tmdb Api.Learnt some purejs and css concepts while building this.</p>
-
-    <a class="link link-primary" href="https://movies-app-rahul.netlify.app/">Live Project</a>
-    <a class="link link-secondary" href="https://github.com/heyRahull/movies-app">View Source</a>
-
-    </article>
-    
-</li>
-
-  <li>
-    <article class="showcase-list container container-center ">
-        <h1><img src="./images/amazon-removebg-preview.png" width="60" height="60" alt=""> Amazon Clone</h1>
-    <small>May, 2021</small>
-    <img class="project-image" src="./project-images/amazone_clone.PNG" alt="amazone_clone">
-    <p>This is a clone app of Amazon Ecommerce Application. It is built using reactjs and firebase. It makes use of React Router to render different pages, it also uses context Api and User Authentication. The aim of building this app is to understand the different components of Ecommerce site.</p>
-
-    <a class="link link-primary" href="https://clone-3d1bc.web.app/">Live Project</a>
-    <a class="link link-secondary" href="https://github.com/heyRahull/Amazon-Clone">View Source</a>
-
-    </article>
-    
-</li>
-
-  <li class="ow">
-    <article class="showcase-list container container-center ">
-        <h1><img src="./images/Netflix logo.png" width="60" height="40" alt=""> Netflix Frontend Clone</h1>
-    <small>May, 2021</small>
-    <img class="project-image" src="./project-images/Netflix_clone.PNG" alt="netflix_clone">
-    <p>This is a clone app for the frontend of Netflix. It is built using reactjs and firebase. It makes use of TMDB Api, firestore(db), MaterialUi.</p>
-
-    <a class="link link-primary" href="https://netflix-frontend-f0d8b.web.app/">Live Project</a>
-    <a class="link link-secondary" href="https://github.com/heyRahull/Netflix-frontend">View Source</a>
-
-    </article>
-    
-</li>
-
-  <li>
-    <article class="showcase-list container container-center ">
-        <h1><img src="./images/messanger-image.png" width="60" height="60" alt=""> Messanger Clone</h1>
-    <small>April, 2021</small>
-    <img class="project-image" src="./project-images/Messanger_clone.PNG" alt="Meassanger_clone">
-    <p>This is a clone app of Messanger Chat Application. It is built using reactjs and firebase. It makes use of firestore(db), MaterialUi. The aim of building this app is to understand how a chat app works.</p>
-
-    <a class="link link-primary" href="https://messanger-clone-60be2.web.app/">Live Project</a>
-    <a class="link link-secondary" href="https://github.com/heyRahull/Messanger-Clone">View Source</a>
-
-    </article>
-    
-</li>
-
-  <li class="ow">
-    <article class="showcase-list container container-center ">
-        <h1><img src="./images/Evernote-image.png" width="60" height="60" alt=""> EverNote Clone </h1>
-    <small>April, 2021</small>
-    <img class="project-image" src="./project-images/evernote_project.PNG" alt="evernote project image">
-    <p>This is a clone app of Evernote. It is built using reactjs and firebase. It makes use of firestore(db), ReactQuill and MaterialUi.</p>
-
-    <a class="link link-primary" href="https://evernote-clone-f5f5b.web.app/">Live Project</a>
-    <a class="link link-secondary" href="https://github.com/heyRahull/Evernote-clone">View Source</a>
-
-    </article>
-    
-</li>
-
-  <li>
-    <article class="showcase-list container container-center ">
-        <h1> 🖼️ Picsogram App 🖼️</h1>
-    <small>March, 2021</small>
-    <img class="project-image" src="./project-images/picsogram.PNG" alt="picsogram image">
-    <p>This is an app similar to Instagram. It is built using reactjs and firebase. It makes use of storage, firestore(db) and authentication from firebase.</p>
-
-    <a class="link link-primary" href="https://instagram-clone-f5d3a.web.app/">Live Project</a>
-    <a class="link link-secondary" href="https://github.com/heyRahull/picsogram_app">View Source</a>
-
-    </article>
-    
-</li>
-
-  <li class="ow">
-    <article class="showcase-list container container-center ">
-        <h1>📝 ToDo List App 📝</h1>
-    <small>March, 2021</small>
-    <img class="project-image" src="./project-images/todo_app.PNG" alt="Todo app image">
-    <p>You can record all ypur TODo's using this app. This app have the functionality of adding, deleting and reading tsaks.I have used firebase as backend in this app.</p>
-
-    <a class="link link-primary" href="https://todo-app-e6f8a.web.app/">Live Project</a>
-    <a class="link link-secondary" href="https://github.com/heyRahull/todo-app-firebase">View Source</a>
-
-    </article>
-    
-</li>
-
-    <li >
-        <article class="showcase-list container container-center ">
-            <h1>🌟 Movies Rating App 🌟</h1>
-        <small>February, 2020</small>
-        <img class="project-image" src="./project-images/movie_rating_app.PNG" alt="movie rating app image">
-        <p>Do you watch movies? You would find some good recommendations for different genre. Made using ReactJS with ❤️</p>
-
-        <a class="link link-primary" href="https://tf33c.csb.app/">Live Project</a>
-        <a class="link link-secondary" href="https://github.com/heyRahull/MovieRating_App">View Source</a>
-
+          <a class="link link-primary" href="angela.html">Live Project</a>
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/movies-app"
+            >View Source</a
+          >
         </article>
-        
-    </li >
+      </li>
 
-    <li class="ow">
-        <article class="showcase-list container container-center ">
-            <h1>😃 Emojipedia 😃</h1>
-        <small>January, 2021</small>
-        <img class="project-image" src="./project-images/emoji_interpreter.PNG" alt="emoji interpretor image">
-        <p>I struggle with understanding the emojis. Do you too? If yes, then see this library of emojis with meaning.</p>
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>🍷 Cocktail Db App</h1>
+          <small>May, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/cocktaildb.PNG"
+            alt="movies__app"
+          />
+          <p>
+            This is a Cocktail Db app built in react js and it displays
+            cocktails images and gives information about each image. The
+            cocktails are displayed using thecocktaildb Api. Learnt context api,
+            purejs, react and css concepts while building this.
+          </p>
 
-        <a class="link link-primary" href="https://mqyn9.csb.app/">Live Project</a>
-        <a class="link link-secondary" href="https://github.com/heyRahull/EmojiInterpreterApp">View Source</a>
-
+          <a
+            class="link link-primary"
+            href="https://cocktail-db-app.netlify.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/Cocktauil-Db"
+            >View Source</a
+          >
         </article>
-        
-    </li>
+      </li>
 
-    <li>
-        <article class="showcase-list container container-center ">
-            <h1><img src="./images/Yoda Image 1.png" width="60" height="60" alt="">Yoda Speak<img src="./images/Yoda Image 1.png" width="60" height="60" alt=""></h1>
-        <small>January, 2021</small>
-        <img class="project-image" src="./project-images/yoda_translator.PNG" alt="yoda translator image">
-        <p>Convert from English to Yoda speak.Yoda is a fictional character in the Star Wars universe. He is a small, green humanoid alien who is powerful with the Force.He has its own language, Yoda often orders sentences as Object-Subject-Verb!</p>
+      <li class="ow">
+        <article class="showcase-list container container-center">
+          <h1>🎥 Movies App</h1>
+          <small>May, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/movies__app.PNG"
+            alt="movies__app"
+          />
+          <p>
+            This is a Movies app built in react js and it displays movies
+            posters and overview of the movies. The movies are displayed using
+            Tmdb Api.Learnt some purejs and css concepts while building this.
+          </p>
 
-        <a class="link link-primary" href="https://yoda-translator-app.netlify.app/" target="_blank">Live Project</a>
-        <a class="link link-secondary" href="https://github.com/heyRahull/Yoda-Translator-App" target="_blank">View Source</a>
-
+          <a
+            class="link link-primary"
+            href="https://movies-app-rahul.netlify.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/movies-app"
+            >View Source</a
+          >
         </article>
-        
-    </li>
+      </li>
 
-    <li class="ow">
-        <article class="showcase-list container container-center ">
-            <h1><img src="./images/minion-yellow.png" width="60" height="60" alt="">Banana Translator <img src="./images/minion-transparent-background-23.png" width="60" height="60" alt=""></h1>
-        <small>January, 2021</small>
-        <img class="project-image" src="./project-images/Banana_talk.PNG" alt="Banana Talk img">
-        <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use this translator app buit using translation API to convert your text from English to Minion speak or Banana language.</p>
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            <img
+              src="./images/amazon-removebg-preview.png"
+              width="60"
+              height="60"
+              alt=""
+            />
+            Amazon Clone
+          </h1>
+          <small>May, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/amazone_clone.PNG"
+            alt="amazone_clone"
+          />
+          <p>
+            This is a clone app of Amazon Ecommerce Application. It is built
+            using reactjs and firebase. It makes use of React Router to render
+            different pages, it also uses context Api and User Authentication.
+            The aim of building this app is to understand the different
+            components of Ecommerce site.
+          </p>
 
-        <a class="link link-primary" href="https://minion-language-app.netlify.app/" target="_blank">Live Project</a>
-        <a class="link link-secondary" href="https://github.com/heyRahull/Banana_translator_app" target="_blank">View Source</a>
-
+          <a class="link link-primary" href="https://clone-3d1bc.web.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/Amazon-Clone"
+            >View Source</a
+          >
         </article>
-        
-    </li>
+      </li>
 
-    <li >
-        <article class="showcase-list container container-center ">
-            <h1>Are you a real F.R.I.E.N.D.S fan?<img src="./images/friends-image (4).png" width="200" height="80" alt=""> </h1>
-            <small>December, 2020</small>
-            <p>Are you also a fan of F.R.I.E.N.D.S series like me? Let's play a quiz and see.</p>
+      <li class="ow">
+        <article class="showcase-list container container-center">
+          <h1>
+            <img
+              src="./images/Netflix logo.png"
+              width="60"
+              height="40"
+              alt=""
+            />
+            Netflix Frontend Clone
+          </h1>
+          <small>May, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/Netflix_clone.PNG"
+            alt="netflix_clone"
+          />
+          <p>
+            This is a clone app for the frontend of Netflix. It is built using
+            reactjs and firebase. It makes use of TMDB Api, firestore(db),
+            MaterialUi.
+          </p>
 
-            <a class="link link-primary" href="https://replit.com/@rahulagarwal99/FavSeriesQuiz?embed=1&output=1" target="_blank">Live Project</a>
-            <a class="link link-secondary" href="https://github.com/heyRahull/Favorite_Series_Quiz" target="_blank">View Source</a>
+          <a
+            class="link link-primary"
+            href="https://netflix-frontend-f0d8b.web.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/Netflix-frontend"
+            >View Source</a
+          >
         </article>
-        
-    </li>
+      </li>
 
-    <li class="ow">
-        <article class="showcase-list container container-center ">
-            <h1> 👦 How well do you know Me? 👦 </h1>
-        <small>December, 2020</small>
-        <p>A CLI app built with <strong>nodeJS</strong>. You can send this to your friends and find out who really knows you well.</p>
-        
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            <img
+              src="./images/messanger-image.png"
+              width="60"
+              height="60"
+              alt=""
+            />
+            Messanger Clone
+          </h1>
+          <small>April, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/Messanger_clone.PNG"
+            alt="Meassanger_clone"
+          />
+          <p>
+            This is a clone app of Messanger Chat Application. It is built using
+            reactjs and firebase. It makes use of firestore(db), MaterialUi. The
+            aim of building this app is to understand how a chat app works.
+          </p>
 
-        <a class="link link-primary" href="https://replit.com/@rahulagarwal99/AboutMeQuiz?embed=1&output=1"  target="_blank">Live Project</a>
-        <a class="link link-secondary" href="https://github.com/heyRahull/About_Me_Quiz"  target="_blank">View Source</a>
-
+          <a
+            class="link link-primary"
+            href="https://messanger-clone-60be2.web.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/Messanger-Clone"
+            >View Source</a
+          >
         </article>
-        
-    </li>
+      </li>
 
-</ul>
+      <li class="ow">
+        <article class="showcase-list container container-center">
+          <h1>
+            <img
+              src="./images/Evernote-image.png"
+              width="60"
+              height="60"
+              alt=""
+            />
+            EverNote Clone
+          </h1>
+          <small>April, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/evernote_project.PNG"
+            alt="evernote project image"
+          />
+          <p>
+            This is a clone app of Evernote. It is built using reactjs and
+            firebase. It makes use of firestore(db), ReactQuill and MaterialUi.
+          </p>
 
-      <!-- Footer Section -->
-    <nav class="navbar navbar-dark nav-color" style=" color: white;">
-        <h3 style="display: block; margin-left: auto; margin-right: auto;">Connect with Me !</h3>
-      </nav>
-    <nav class="navbar navbar-dark nav-color" >
-        <div style="display: block; margin-left: auto; margin-right: auto;">
-            
-          <a class="navbar-brand" href="https://github.com/heyrahull" target="_blank"><img src="icons/github.png"
-              width="30" height="30" alt=""></a>
-          <a class="navbar-brand" href="https://www.linkedin.com/in/rahul-agarwal-806081148/" target="_blank"><img
-              src="icons/Linkedin.png" width="30" height="30" alt="" loading="lazy"></a>
-          <a class="navbar-brand" href="https://medium.com/@rahul123agarwal99" target="_blank"><img src="icons/medium.png"
-              width="30" height="30" alt="" loading="lazy"></a>
-          <a class="navbar-brand" href="mailto:rahul123agarwal99@gmail.com" target="_blank"><img src="icons/gmail1.png"
-              width="30" height="27" alt="" loading="lazy"></a>
-    
-        </div>
-    
-      </nav>
-      <nav class="navbar navbar-dark nav-color" style=" color: white;">
-        <p style="display: block; margin-left: auto; margin-right: auto;">Customized with ❤️ by Rahul Agarwal</p>
-      </nav>
+          <a
+            class="link link-primary"
+            href="https://evernote-clone-f5f5b.web.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/Evernote-clone"
+            >View Source</a
+          >
+        </article>
+      </li>
 
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>🖼️ Picsogram App 🖼️</h1>
+          <small>March, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/picsogram.PNG"
+            alt="picsogram image"
+          />
+          <p>
+            This is an app similar to Instagram. It is built using reactjs and
+            firebase. It makes use of storage, firestore(db) and authentication
+            from firebase.
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://instagram-clone-f5d3a.web.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/picsogram_app"
+            >View Source</a
+          >
+        </article>
+      </li>
+
+      <li class="ow">
+        <article class="showcase-list container container-center">
+          <h1>📝 ToDo List App 📝</h1>
+          <small>March, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/todo_app.PNG"
+            alt="Todo app image"
+          />
+          <p>
+            You can record all ypur TODo's using this app. This app have the
+            functionality of adding, deleting and reading tsaks.I have used
+            firebase as backend in this app.
+          </p>
+
+          <a class="link link-primary" href="https://todo-app-e6f8a.web.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/todo-app-firebase"
+            >View Source</a
+          >
+        </article>
+      </li>
+
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>🌟 Movies Rating App 🌟</h1>
+          <small>February, 2020</small>
+          <img
+            class="project-image"
+            src="./project-images/movie_rating_app.PNG"
+            alt="movie rating app image"
+          />
+          <p>
+            Do you watch movies? You would find some good recommendations for
+            different genre. Made using ReactJS with ❤️
+          </p>
+
+          <a class="link link-primary" href="https://tf33c.csb.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/MovieRating_App"
+            >View Source</a
+          >
+        </article>
+      </li>
+
+      <li class="ow">
+        <article class="showcase-list container container-center">
+          <h1>😃 Emojipedia 😃</h1>
+          <small>January, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/emoji_interpreter.PNG"
+            alt="emoji interpretor image"
+          />
+          <p>
+            I struggle with understanding the emojis. Do you too? If yes, then
+            see this library of emojis with meaning.
+          </p>
+
+          <a class="link link-primary" href="https://mqyn9.csb.app/"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/EmojiInterpreterApp"
+            >View Source</a
+          >
+        </article>
+      </li>
+
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            <img
+              src="./images/Yoda Image 1.png"
+              width="60"
+              height="60"
+              alt=""
+            />Yoda Speak<img
+              src="./images/Yoda Image 1.png"
+              width="60"
+              height="60"
+              alt=""
+            />
+          </h1>
+          <small>January, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/yoda_translator.PNG"
+            alt="yoda translator image"
+          />
+          <p>
+            Convert from English to Yoda speak.Yoda is a fictional character in
+            the Star Wars universe. He is a small, green humanoid alien who is
+            powerful with the Force.He has its own language, Yoda often orders
+            sentences as Object-Subject-Verb!
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://yoda-translator-app.netlify.app/"
+            target="_blank"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/Yoda-Translator-App"
+            target="_blank"
+            >View Source</a
+          >
+        </article>
+      </li>
+
+      <li class="ow">
+        <article class="showcase-list container container-center">
+          <h1>
+            <img
+              src="./images/minion-yellow.png"
+              width="60"
+              height="60"
+              alt=""
+            />Banana Translator
+            <img
+              src="./images/minion-transparent-background-23.png"
+              width="60"
+              height="60"
+              alt=""
+            />
+          </h1>
+          <small>January, 2021</small>
+          <img
+            class="project-image"
+            src="./project-images/Banana_talk.PNG"
+            alt="Banana Talk img"
+          />
+          <p>
+            Are you a fan of minions? Did you know that the gibberish they say
+            is an actual language. Use this translator app buit using
+            translation API to convert your text from English to Minion speak or
+            Banana language.
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://minion-language-app.netlify.app/"
+            target="_blank"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/Banana_translator_app"
+            target="_blank"
+            >View Source</a
+          >
+        </article>
+      </li>
+
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>
+            Are you a real F.R.I.E.N.D.S fan?<img
+              src="./images/friends-image (4).png"
+              width="200"
+              height="80"
+              alt=""
+            />
+          </h1>
+          <small>December, 2020</small>
+          <p>
+            Are you also a fan of F.R.I.E.N.D.S series like me? Let's play a
+            quiz and see.
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://replit.com/@rahulagarwal99/FavSeriesQuiz?embed=1&output=1"
+            target="_blank"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/Favorite_Series_Quiz"
+            target="_blank"
+            >View Source</a
+          >
+        </article>
+      </li>
+
+      <li class="ow">
+        <article class="showcase-list container container-center">
+          <h1>👦 How well do you know Me? 👦</h1>
+          <small>December, 2020</small>
+          <p>
+            A CLI app built with <strong>nodeJS</strong>. You can send this to
+            your friends and find out who really knows you well.
+          </p>
+
+          <a
+            class="link link-primary"
+            href="https://replit.com/@rahulagarwal99/AboutMeQuiz?embed=1&output=1"
+            target="_blank"
+            >Live Project</a
+          >
+          <a
+            class="link link-secondary"
+            href="https://github.com/heyRahull/About_Me_Quiz"
+            target="_blank"
+            >View Source</a
+          >
+        </article>
+      </li>
+    </ul>
+
+    <!-- Footer Section -->
+    <nav class="navbar navbar-dark nav-color" style="color: white">
+      <h3 style="display: block; margin-left: auto; margin-right: auto">
+        Connect with Me !
+      </h3>
+    </nav>
+    <nav class="navbar navbar-dark nav-color">
+      <div style="display: block; margin-left: auto; margin-right: auto">
+        <a
+          class="navbar-brand"
+          href="https://github.com/heyrahull"
+          target="_blank"
+          ><img src="icons/github.png" width="30" height="30" alt=""
+        /></a>
+        <a
+          class="navbar-brand"
+          href="https://www.linkedin.com/in/rahul-agarwal-806081148/"
+          target="_blank"
+          ><img
+            src="icons/Linkedin.png"
+            width="30"
+            height="30"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a
+          class="navbar-brand"
+          href="https://medium.com/@rahul123agarwal99"
+          target="_blank"
+          ><img
+            src="icons/medium.png"
+            width="30"
+            height="30"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a
+          class="navbar-brand"
+          href="mailto:rahul123agarwal99@gmail.com"
+          target="_blank"
+          ><img
+            src="icons/gmail1.png"
+            width="30"
+            height="27"
+            alt=""
+            loading="lazy"
+        /></a>
+      </div>
+    </nav>
+    <nav class="navbar navbar-dark nav-color" style="color: white">
+      <p style="display: block; margin-left: auto; margin-right: auto">
+        Customized with ❤️ by Rahul Agarwal
+      </p>
+    </nav>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
