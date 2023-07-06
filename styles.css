@@ -275,3 +275,8 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.certificate_logo {
+  height: 50px;
+  width: 50px;
+}
