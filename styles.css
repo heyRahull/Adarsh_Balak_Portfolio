@@ -280,3 +280,8 @@ hr {
   height: 50px;
   width: 50px;
 }
+
+.certification_name {
+  font-size: 25px;
+  color: #0064b6;
+}
