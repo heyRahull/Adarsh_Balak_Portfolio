@@ -295,3 +295,10 @@ hr {
   background-color: var(--primary-color);
   color: #0d6efd;
 }
+
+.excerpt {
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
